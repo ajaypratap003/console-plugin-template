@@ -16,5 +16,29 @@
       "perspective": "admin",
       "section": "home"
     }
+  },
+  {
+    "type": "console.tab/horizontalNav",
+    "properties": {
+      "page": {
+        "name": "Example Tab",
+        "href": "example"
+      },
+      "model": {
+        "group": "core",
+        "version": "v1",
+        "kind": "Pod"
+      },
+      "component": { "$codeRef": "ExampleTab" }
+    }
+  },
+  {
+    "type": "console.navigation/section",
+    "properties": {
+      "perspective": "admin",
+      "id": "usermanagement",
+      "name": "AMQ Online",
+      "dataAttributes": { "data-quickstart-id": "qs-nav-usermanagement" }
+    }
   }
 ]

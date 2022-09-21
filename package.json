@@ -1,5 +1,5 @@
 {
-  "name": "console-plugin-template",
+  "name": "amq-self-provisioning-plugin",
   "version": "0.0.1",
   "private": true,
   "repository": "git@github.com:spadgett/console-plugin-template.git",
@@ -48,12 +48,13 @@
     "webpack-dev-server": "^4.7.4"
   },
   "consolePlugin": {
-    "name": "console-plugin-template",
+    "name": "amq-self-provisioning-plugin",
     "version": "0.0.1",
-    "displayName": "OpenShift Console Plugin Template",
-    "description": "Template project for OpenShift console plugins. Edit package.json to change this message and the plugin name.",
+    "displayName": "AMQ Self Provisioning Plugin",
+    "description": "AMQ Self Provisioning Plugin",
     "exposedModules": {
-      "ExamplePage": "./components/ExamplePage"
+      "ExamplePage": "./components/ExamplePage",
+      "ExampleTab": "./components/ExampleTab"
     },
     "dependencies": {
       "@console/pluginAPI": "*"
